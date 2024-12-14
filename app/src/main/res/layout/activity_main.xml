@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm thinking of a number between 1 and 100." />
+
+    <EditText
+        android:id="@+id/etGuess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter your guess" />
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess" />
+
+    <TextView
+        android:id="@+id/tvRemainingAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remaining Attempts: 10" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart" />
+
+</LinearLayout>
